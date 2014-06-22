@@ -1,9 +1,9 @@
-﻿using System;
+﻿using MicroORMvsEntityFramework.Domain;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MicroOrm
 
 namespace FillDatabaseApp
 {
@@ -24,6 +24,7 @@ namespace FillDatabaseApp
                 }
                 context.SaveChanges();
             }
+            Console.ReadKey();
         }
     }
 }
